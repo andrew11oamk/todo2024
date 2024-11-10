@@ -90,7 +90,7 @@ describe('DELETE task',() => {
 })
 
 describe ('POST register',() => {
-    const email = 'demo9@mail.com'
+    const email = 'demo12@mail.com'
     const password = '12345678'
     it ('should register with valid email and password',async() => {
         const response = await fetch(baseUrl + 'user/register',{

@@ -39,7 +39,7 @@ router.post('/login',(req,res,next) => {
                         const user = result.rows[0]
                         return res.status(200).json(
                             {
-                                'id':user.id,
+                                'id': user.id,
                                 'email': user.email,
                                 'token': token
                             }
